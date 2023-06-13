@@ -6,7 +6,7 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<form action="${pageContext.request.contectPath}/homeInf/getAllHomeInf">
+<form action="${pageContext.request.contextPath}/homeInf/getAllHomeInf">
     <input name="submit" type="submit">
     <c:if test="${not empty param.homeInf_zch_hwz_gjc}">
         <table>
